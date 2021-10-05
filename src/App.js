@@ -1,24 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
-
+import "./App.css";
+let name="Tarun5"
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+    <>
+      <nav>
+        <li>Home</li>
+        <li>About</li>
+        <li>Contact</li>
+        <li>List</li>
+      </nav>
+      <div className="contaier">
+        <h1>Hello {name}</h1>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore illum
+          quae cupiditate nihil. Aliquid magni corporis velit dicta libero
+          repellendus nam ea? Laboriosam sint soluta placeat, possimus quidem
+          aliquid quia.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      </div>
+    </>
   );
 }
 
